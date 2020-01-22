@@ -27,11 +27,11 @@ setup(
     include_package_data=True,
     zip_safe=False,
     install_requires=[
-        'Flask==0.10.1',
+        'Flask==0.1.0',
         'psutil==2.1.3',
         'glob2==0.4.1',
-        'gevent==1.1.2',
-        'zerorpc==0.5.1',
+        'gevent==1.4.0',
+        'zerorpc==0.6.3',
         'netifaces==0.10.4',
         'argparse'
     ],
