@@ -19,9 +19,9 @@ setup(
         'Intended Audience :: System Administrators'
     ],
     keywords='linux web dashboard',
-    author='Joakim Hamrén',
-    author_email='joakim.hamren@gmail.com',
-    url='https://github.com/Jahaja/psdash',
+    author='Joakim Hamrén, Sudheer628',
+    author_email='sudheer628@yahoo.com',
+    url='https://github.com/sudheer628/psdash',
     license='CC0',
     packages=find_packages(exclude=['tests']),
     include_package_data=True,
@@ -31,7 +31,7 @@ setup(
         'psutil==2.1.3',
         'glob2==0.4.1',
         'gevent==1.0.2',
-        'zerorpc==0.4.4',
+        'zerorpc==0.5.1',
         'netifaces==0.10.4',
         'argparse'
     ],
